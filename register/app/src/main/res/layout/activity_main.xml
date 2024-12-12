@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rejestruj Konto"
+            android:background="#008080"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:padding="20dp"
+            />
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Podaj e-mail"
+                android:padding="20dp"
+                android:inputType="textEmailAddress"
+                />
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Podaj Hasło"
+                    android:inputType="textPassword"
+                    android:padding="20dp"
+                    />
+                    <EditText
+                        android:id="@+id/powtorzpassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Powtórz Hasło"
+                        android:inputType="textPassword"
+                        android:padding="20dp"
+                        />
+                        <Button
+                            android:id="@+id/przycisk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="ZATWIERDŹ"
+                            />
+                            <TextView
+                                android:id="@+id/komunikaty"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Autor: Denis Stepien"
+                                android:gravity="center" />
+                                </LinearLayout>
